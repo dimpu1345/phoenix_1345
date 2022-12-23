@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name ="url" value="https://amazon.in"></parameter>
+  <parameter name="key" value="webdriver.gecko.driver"></parameter>
+  <parameter name="value" value="./softwares/geckodriver.exe"></parameter>
+  <classes>
+  <class name="groupExecution.ParametrsExample">
+  </class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
